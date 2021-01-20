@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    background-color:white;    
+}
+
+
+#img-container{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+
+
+.left-pane{
+    background-color: #099dfd;
+    width: 45vw;
+    height: 80vh;
+    margin-left: 100px;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#illustration{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#illustrationContainer{
+    width: 400px;
+    margin: auto;
+    padding-top: 75px;
+    padding-bottom: 45px;
+}
+
+#bottomText{
+    font-size: 1.2rem;
+    color: white;
+    
+}
+
+#flexContainer{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.right-pane{
+    flex: 1;
+    text-align: center;
+    width: 50vw;
+    height: 80vh;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginContainer{
+    margin-top: 20vh;
+}
+
+#headingText{
+    font-size: 1.5rem;
+
+}
+#highlighted{
+    color: #099dfd;
+}
+
+#email{
+    margin-top: 20px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px;
+    width: 90%;
+    font-size: 1.25rem;
+    border: 2px solid #099dfd;
+    border-radius: 5px;
+}
+.submitButton{
+    background-color: #099dfd;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 10px;
+}
